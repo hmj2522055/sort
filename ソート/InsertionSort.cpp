@@ -5,10 +5,11 @@ void InsertionSort::Exec(int* array, int size)
 {
 	for (int i = 1; i < size; ++i)
 	{
-		int key = array[i]; // 挿入対象の値を得る
+		// 挿入対象の値を得る
+		int key = array[i]; 
 		int k = i - 1;
 
-		// Keyより大きい値を右に置く
+		// keyより大きな値を右に置く
 		while (k >= 0 && array[k] > key)
 		{
 			array[k + 1] = array[k];
