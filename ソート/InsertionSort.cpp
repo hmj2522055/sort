@@ -15,7 +15,7 @@ void InsertionSort::Exec(int* array, int size)
 			array[k + 1] = array[k];
 			--k;
 		}
-		// Keyを正確な位置に挿入する
+		// keyを正確な位置に挿入する
 		array[k + 1] = key;
 	}
 }

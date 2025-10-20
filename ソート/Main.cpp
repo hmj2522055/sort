@@ -21,10 +21,10 @@ int main()
 {
 	constexpr int Size = 5;
 	//Sort* sort = new BubbleSort();
-	Sort* sort = new InsertionSort();
+	//Sort* sort = new InsertionSort();
 	//Sort* sort = new SelectionSort();
 	//Sort* sort = new QuickSort();
-	//Sort* sort = new RadixSort();
+	Sort* sort = new RadixSort();
 
 	// îzóÒçÏê¨
 	vector<int> array(Size);
