@@ -1,7 +1,7 @@
 #pragma once
 #include "Sort.h"
 
-// 挿入ソート
+// 選択ソート
 class SelectionSort :public Sort
 {
 public:
