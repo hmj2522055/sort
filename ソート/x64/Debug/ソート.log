@@ -1,2 +1,26 @@
-﻿  QuickSort.cpp
-  ソート.vcxproj -> D:\GitHub\ソート\x64\Debug\ソート.exe
+﻿  InsertionSort.cpp
+  Main.cpp
+  QuickSort.cpp
+  RadixSort.cpp
+D:\GitHub\ソート\ソート\Main.cpp(24,8): error C2374: 'sort': 再定義されています。2 回以上初期化されています。
+  D:\GitHub\ソート\ソート\Main.cpp(23,8):
+  'sort' の宣言を確認してください
+  
+D:\GitHub\ソート\ソート\Main.cpp(25,8): error C2374: 'sort': 再定義されています。2 回以上初期化されています。
+  D:\GitHub\ソート\ソート\Main.cpp(23,8):
+  'sort' の宣言を確認してください
+  
+D:\GitHub\ソート\ソート\Main.cpp(26,8): error C2374: 'sort': 再定義されています。2 回以上初期化されています。
+  D:\GitHub\ソート\ソート\Main.cpp(23,8):
+  'sort' の宣言を確認してください
+  
+D:\GitHub\ソート\ソート\Main.cpp(27,8): error C2374: 'sort': 再定義されています。2 回以上初期化されています。
+  D:\GitHub\ソート\ソート\Main.cpp(23,8):
+  'sort' の宣言を確認してください
+  
+D:\GitHub\ソート\ソート\Main.cpp(47,17): warning C4244: '初期化中': '_Rep' から 'double' への変換です。データが失われる可能性があります。
+D:\GitHub\ソート\ソート\Main.cpp(47,17): warning C4244:         with
+D:\GitHub\ソート\ソート\Main.cpp(47,17): warning C4244:         [
+D:\GitHub\ソート\ソート\Main.cpp(47,17): warning C4244:             _Rep=__int64
+D:\GitHub\ソート\ソート\Main.cpp(47,17): warning C4244:         ]
+  コードを生成中...
